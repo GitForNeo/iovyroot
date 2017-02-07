@@ -241,6 +241,22 @@ struct offsets offsets[] = {
 
 struct offsets offsets[] = {
 	/********************** SONY **********************/
+	//Z2 Tablet SGP551 Brazil 23.5.A.0.575
+	{ "SGP551", "Linux version 3.4.0-perf-g43ea728 (BuildUser@BuildHost) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Fri Apr 22 17:27:56 2016",
+	  { (void*)FSYNC_OFFSET(0xc1235674) },
+	  (void*)0xc122a08c, (void*)0xc122a0b4, (void*)0xc102f1d0, (void*)0xc1228630 },
+	//Z2 Tablet SGP521 UK 23.5.A.0.575
+	{ "SGP521", "Linux version 3.4.0-perf-g43ea728 (BuildUser@BuildHost) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Fri Apr 22 17:27:56 2016",
+	  { (void*)FSYNC_OFFSET(0xc12353b4) },
+	  (void*)0xc1229dcc, (void*)0xc1229df4, (void*)0xc102f1c0, (void*)0xc1228370 },
+	//Z2 Tablet SGP511 UK 23.5.A.0.575
+	{ "SGP511", "Linux version 3.4.0-perf-g43ea728 (BuildUser@BuildHost) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Fri Apr 22 17:27:56 2016",
+	  { (void*)FSYNC_OFFSET(0xc1234bb4) },
+	  (void*)0xc12295cc, (void*)0xc12295f4, (void*)0xc102f1c0, (void*)0xc1227b70 },
+	//Z2 Tablet SGP512 UK TW 23.5.A.0.575
+	{ "SGP512", "Linux version 3.4.0-perf-g43ea728 (BuildUser@BuildHost) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #1 SMP PREEMPT Fri Apr 22 17:27:56 2016",
+	  { (void*)FSYNC_OFFSET(0xc1234bb4) },
+	  (void*)0xc12295cc, (void*)0xc12295f4, (void*)0xc102f1c0, (void*)0xc1227b70 },
 	//Z3C 23.4.A.1.264
 	{ "D5803", "Linux version 3.4.0-perf-gbe52486 (BuildUser@BuildHost) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Thu Sep 17 15:00:01 2015",
 	  { (void*)FSYNC_OFFSET(0xc10ec130) },
@@ -365,6 +381,14 @@ struct offsets offsets[] = {
 	  (void*)0xc13971e0, (void*)0xc13970d0, (void*)0xc115072c, (void*)0xc1395678 },
 
     /********************** HUAWEI ************************/
+ 	//MediaPad T1-701u, 4.4.2 B005
+	{ "T1-701u", "Linux version 3.10.17-g9c4314c (jslave@wuheatculx00133) (gcc version 4.7 (GCC) ) #0 SMP PREEMPT Wed May 6 18:40:01 CST 2015",
+	  { (void*)FSYNC_OFFSET(0xc085ecb0) },
+	  (void*)0xc085cddc, (void*)0xc085cccc, (void*)0xc07e5304, (void*)0xc085b278},	  
+ 	//MediaPad T1-701u, 4.4.2 B005
+	{ "T1-701u", "Linux version 3.10.17-ga25a4ce (jslave@wuheatculx00162) (gcc version 4.7 (GCC) ) #0 SMP PREEMPT Sat May 9 22:21:56 CST 2015",
+	  { (void*)FSYNC_OFFSET(0xc085ecb0) },
+	  (void*)0xc085cddc, (void*)0xc085cccc, (void*)0xc07e5304, (void*)0xc085b278},	
 	//MediaPad T1-701u, 4.4.2 B005
 	{ "T1-701u", "Linux version 3.10.17-gcf73bb7 (jslave@wuheatculx00126) (gcc version 4.7 (GCC) ) #0 SMP PREEMPT Tue May 26 14:02:13 CST 2015",
 	  { (void*)FSYNC_OFFSET(0xc0874a30) },
@@ -389,6 +413,12 @@ struct offsets offsets[] = {
 	{ "T1-701u", "Linux version 3.10.17-g9935c48 (jslave@wuheatculx00118) (gcc version 4.7 (GCC) ) #0 SMP PREEMPT Fri Jan 8 16:34:04 CST 2016",
 	  { (void*)FSYNC_OFFSET(0xc088e530) },
 	  (void*)0xc088c65c, (void*)0xc088c54c, (void*)0xc07fb304, (void*)0xc088aaf8 },
+
+	/********************** XIAOMI ************************/
+	//Xiaomi MI 2, MIUI 7.2.4.0 Android 5.0.2 LRX22G
+	{ "MI 2", "Linux version 3.4.0-perf-g9b728b6-00625-ge66671e (builder@qh-miui-ota-bd53) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Mon Mar 7 20:05:25 CST 2016",
+	  { (void*)FSYNC_OFFSET(0xC12D5298) },
+	  (void*)0xC12BC530, (void*)0xC12BC420, (void*)0xC0F5332C, (void*)0xC12BA9D0 },
 };
 
 #endif /* (__LP64__) */
